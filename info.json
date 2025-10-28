@@ -1,0 +1,15 @@
+{
+    "name": "pelagos",
+    "version": "0.0.1",
+    "title": "Spoiled Trenches Of Fulgora",
+    "author": "Talandar",
+    "dependencies": [
+        "base >= 2.0",
+        "space-age",
+        "quality",
+        "cargo-ships",
+        "? pelagos"
+    ],
+    "description": "",
+    "factorio_version": "2.0"
+}
