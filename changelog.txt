@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.0
-Date: 2025-11-18
+Date: 2025-11-19
   Balancing:
     - holmium sludge purification recipe now has higher chance for holmium-ore (0.20 -> 0.25)
     - holmium sludge purification recipe now gives less spoilage as byproduct (10 -> 8)
