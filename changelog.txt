@@ -4,6 +4,7 @@ Date: 2025-11-18
   Balancing:
     - holmium sludge purification recipe now has higher chance for holmium-ore (0.20 -> 0.25)
     - holmium sludge purification recipe now gives less spoilage as byproduct (10 -> 8)
+    - changed load order with pelagos planet mod
   Changes:
     - renamed "Holmium ore from holmium sludge" to "Holmium sludge purification" in locale
     - holmius sludge is now more visible on map
