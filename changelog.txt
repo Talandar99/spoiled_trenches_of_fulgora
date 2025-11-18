@@ -1,4 +1,18 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2025-11-18
+  Balancing:
+    - holmium sludge purification recipe now has higher chance for holmium-ore (0.20 -> 0.25)
+    - holmium sludge purification recipe now gives less spoilage as byproduct (10 -> 8)
+  Changes:
+    - renamed "Holmium ore from holmium sludge" to "Holmium sludge purification" in locale
+    - holmius sludge is now more visible on map
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2025-11-11
+  Changes:
+    - Holmium Sludge can now be added to existing saves
+---------------------------------------------------------------------------------------------------
 Version: 0.0.1
 Date: 2025-11-08
   Changes:

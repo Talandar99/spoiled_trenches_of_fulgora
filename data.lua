@@ -35,11 +35,10 @@ data:extend({
 			{ type = "item", name = "sulfur", amount = 1 },
 		},
 		results = {
-			{ type = "item", name = "holmium-ore", amount = 1, probability = 0.20 },
-			{ type = "item", name = "spoilage", amount = 10 },
+			{ type = "item", name = "holmium-ore", amount = 1, probability = 0.25 },
+			{ type = "item", name = "spoilage", amount = 8 },
 		},
 		crafting_machine_tint = {
-
 			primary = { r = 0.19, g = 0.07, b = 0.17, a = 1.000 },
 			secondary = { r = 0.26, g = 0.1, b = 0.23, a = 1.000 },
 			tertiary = { r = 0.19, g = 0.07, b = 0.17, a = 1.000 },
@@ -116,6 +115,7 @@ data:extend({
 		},
 		map_generator_bounding_box = { { -3.5, -3.5 }, { 3.5, 3.5 } },
 		selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
+		collision_box = table.deepcopy(data.raw.resource["crude-oil"].collision_box),
 		autoplace = resource_autoplace.resource_autoplace_settings({
 			name = "holmium-sludge",
 			order = "b",
@@ -144,7 +144,7 @@ data:extend({
 				scale = 0.6,
 			},
 		},
-		map_color = { r = 0.88, g = 0.79, b = 0.26 },
+		map_color = { r = 0.88, g = 0.0, b = 0.88 },
 		map_grid = false,
 	},
 })
