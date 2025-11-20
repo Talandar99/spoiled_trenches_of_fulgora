@@ -194,4 +194,6 @@ remove_result(data.raw.recipe["scrap-recycling"], "holmium-ore")
 local generator = data.raw["generator"]["or_power_electric"]
 if generator and generator.fluid_box then
 	generator.fluid_box.filter = nil
+	-- increase effectivity to make sure oil rig won't die randomly while mining uranium sludge
+	generator.effectivity = 5000
 end
