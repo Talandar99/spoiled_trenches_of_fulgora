@@ -15,6 +15,7 @@ data:extend({
 		flow_to_energy_ratio = 0.59,
 		auto_barrel = false,
 		auto_titanium_barrel = true,
+		fuel_value = "0.15MJ",
 	},
 })
 
