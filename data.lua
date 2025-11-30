@@ -36,7 +36,7 @@ data:extend({
 			{ type = "item", name = "sulfur", amount = 1 },
 		},
 		results = {
-			{ type = "item", name = "holmium-ore", amount = 1, probability = 0.25 },
+			{ type = "item", name = "holmium-ore", amount = 1, probability = 0.20 },
 			{ type = "item", name = "spoilage", amount = 8 },
 		},
 		crafting_machine_tint = {
