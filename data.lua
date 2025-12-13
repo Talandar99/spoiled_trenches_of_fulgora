@@ -189,11 +189,3 @@ local function remove_result(recipe, item)
 end
 
 remove_result(data.raw.recipe["scrap-recycling"], "holmium-ore")
-
---allow oil rig to use any fluid as fuel (it needs fuel value in order to not die randomly from lack of energy)
-local generator = data.raw["generator"]["or_power_electric"]
-if generator and generator.fluid_box then
-	generator.fluid_box.filter = nil
-	-- increase effectivity to make sure oil rig won't die randomly while mining uranium sludge
-	generator.effectivity = 5000
-end
