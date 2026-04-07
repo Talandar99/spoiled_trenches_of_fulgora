@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 2026-04-07
+  Changes:
+    - holmium sludge can now be barrelled into regular barrels. 
+      Which should allow you to use galleon + barreling machine + wooden platforms to extract it 
+      before you go to pelagos for tanker ships if you play with pelagos + spoiled trenches and you 
+      have decided to go to fulgora first
+    - holmium sludge purification recipe is now surface locked to fulgora.
+---------------------------------------------------------------------------------------------------
 Version: 0.3.1
 Date: 2025-12-28
   Balancing:

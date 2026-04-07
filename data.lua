@@ -13,7 +13,7 @@ data:extend({
 		order = "a[fluid]-b[holmium-sludge]",
 		pressure_to_speed_ratio = 0.4,
 		flow_to_energy_ratio = 0.59,
-		auto_barrel = false,
+		auto_barrel = true,
 		auto_titanium_barrel = true,
 		fuel_value = "0.15MJ",
 	},
@@ -44,6 +44,18 @@ data:extend({
 			secondary = { r = 0.26, g = 0.1, b = 0.23, a = 1.000 },
 			tertiary = { r = 0.19, g = 0.07, b = 0.17, a = 1.000 },
 			quaternary = { r = 0.87, g = 0.38, b = 0.50, a = 1.000 },
+		},
+		surface_conditions = {
+			{
+				property = "pressure",
+				min = 800,
+				max = 800,
+			},
+			{
+				property = "magnetic-field",
+				min = 99,
+				max = 99,
+			},
 		},
 		main_product = "holmium-ore",
 	},
